@@ -7,7 +7,7 @@ spring:
     url: jdbc:mysql:///pm111
     driver-class-name: com.mysql.jdbc.Driver
   rabbitmq:
-    host: 192.168.0.111
+    host: 192.168.0.103
     username: guest
     password: guest
     port: 5672
