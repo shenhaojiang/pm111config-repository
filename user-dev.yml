@@ -2,7 +2,8 @@ spring:
   datasource:
     username: root
     password: shen123
-    url: jdbc:mysql://pm111
+    url: jdbc:mysql:///pm111
+    driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
     host: 192.168.0.103
     port: 6379
