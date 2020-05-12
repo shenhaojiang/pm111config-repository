@@ -5,10 +5,10 @@ spring:
     url: jdbc:mysql:///pm111
     driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
-    host: 192.168.0.103
+    host: 192.168.0.107
     port: 6379
   rabbitmq:
-    host: 192.168.0.103
+    host: 192.168.0.107
     username: guest
     password: guest
     port: 5672
