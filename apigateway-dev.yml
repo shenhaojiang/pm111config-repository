@@ -1,2 +1,13 @@
 server:
   port: 8989
+zuul:
+  routes: #路由规则
+#    myproduct: #第一组规则：命名规范，一般这个名字是要包装的名字
+#      serviceId: product
+#      path: /myproduct/**
+    product: /myproduct2/** #简单配置
+  ignored-patterns: #排除这个路径，不让访问
+#    - /product/product/listForOrder
+#    - /myproduct2/product/listForOrder
+    - /**/product/listForOrder
+  sensitive-headers: #路由中支持cookie
